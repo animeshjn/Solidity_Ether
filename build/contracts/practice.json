@@ -1,0 +1,86 @@
+{
+  "contract_name": "practice",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "_balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60008054600160a060020a03191633600160a060020a03908116919091178083551681526001602052604090206103e890555b5b6101a5806100536000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416638da5cb5b8114610053578063a9059cbb14610082578063f8b2cb4f146100b8575b600080fd5b341561005e57600080fd5b6100666100e9565b604051600160a060020a03909116815260200160405180910390f35b341561008d57600080fd5b6100a4600160a060020a03600435166024356100f8565b604051901515815260200160405180910390f35b34156100c357600080fd5b6100d7600160a060020a036004351661015a565b60405190815260200160405180910390f35b600054600160a060020a031681565b600160a060020a0333166000908152600160205260408120548290101561012157506000610154565b50600160a060020a0333811660009081526001602081905260408083208054869003905592851682529190208054830190555b92915050565b600160a060020a0381166000908152600160205260409020545b9190505600a165627a7a723058203d0bd3f636f2de6525e6f9293b7fa8cb588f4de51e6fd4cb31f744b04d0cdf9d0029",
+  "networks": {
+    "1503622212804": {
+      "events": {},
+      "links": {},
+      "address": "0xae03b12af9ae0d0be9e74c16efb1848bee7bcff4",
+      "updated_at": 1503622385222
+    },
+    "1503624084108": {
+      "events": {},
+      "links": {},
+      "address": "0x9bca12b92a087379be6e25b8e41679bd86058368",
+      "updated_at": 1503624107000
+    },
+    "1503624613083": {
+      "events": {},
+      "links": {},
+      "address": "0xc688f9d86d20b1e3adaf807e8eac298e8ceb5198",
+      "updated_at": 1503631200486
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1503631200486
+}
