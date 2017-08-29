@@ -24,7 +24,7 @@ contract Animesh {
         
         ) {
         balanceOf[msg.sender] = 100000000;              // Give the creator all initial tokens
-        totalSupply = 100000;                        // Update total supply
+        totalSupply = 100000000;                        // Update total supply
         name = "animesh";                                   // Set the name for display purposes
         symbol = "AJAIN";                               // Set the symbol for display purposes
         decimals = 5;                            // Amount of decimals for display purposes
