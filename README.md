@@ -1,6 +1,6 @@
 # Solidity_Ether
 ## Solidity
-*http://www.monax.io* <br/>
+*https://monax.io/docs/solidity/* <br/>
 
 ## Requires Truffle
 $*npm install -g truffle* <br/>
